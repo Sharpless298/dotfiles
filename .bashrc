@@ -11,3 +11,4 @@ alias grep='grep --color=auto'
 alias less='less -Q'
 alias man='man -P "less -Q"'
 
+nitch
