@@ -1,0 +1,20 @@
+[General]
+Version=202
+ViewPropsTimestamp=2023,10,11,14,59,39.848
+
+[IconsMode]
+PreviewSize=128
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[KPropertiesDialog]
+1280x720 screen: Window-Maximized=true
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+
+[Colors:View]
+BackgroundNormal=#1e1e2e
