@@ -11,6 +11,7 @@
 - [ ] hyprpaper
 - [ ] wlogout
 - [ ] zathura
+- [X] fastfetch
 
 ---
 
