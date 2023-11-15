@@ -3,7 +3,6 @@
 ## ToDoList
 - [ ] rofi
 - [ ] waybar
-- [ ] cava
 - [ ] ranger
 - [ ] dunst
 - [ ] wallpaper
