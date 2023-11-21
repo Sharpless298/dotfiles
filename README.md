@@ -9,6 +9,7 @@
 - [ ] ranger
 - [X] dolphin
 - [ ] wlogout
+- [ ] screenshot
 - [ ] zathura
 - [X] fastfetch
 
