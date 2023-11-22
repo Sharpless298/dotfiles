@@ -28,4 +28,4 @@
 - **Browser** • Firefox & LibreWolf
 - **Shell** • Bash
 - **fetch** pfetch & fastfetch
-- PulseAudio pulsemixer pavu
+- **Theme** 
