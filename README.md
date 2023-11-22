@@ -4,6 +4,7 @@
 - [ ] hyprland
 - [ ] Wallpaper
 - [ ] hyprpaper
+- [ ] sddm
 - [ ] rofi
 - [ ] waybar
 - [ ] ranger
@@ -22,4 +23,9 @@
 - **File Manager** • [Ranger](https://github.com/ranger/ranger) && [Dolphin](https://github.com/KDE/dolphin)
 - **Icon** • Papirus
 - **PDF Viewer** • [Zathura](https://github.com/pwmt/zathura)
-- **Font** • NotoSansMono
+- **Terminal Font** • NotoSansMono
+- **Text Editor** • Vim
+- **Browser** • Firefox & LibreWolf
+- **Shell** • Bash
+- **fetch** pfetch & fastfetch
+PulseAudio pulsemixer pavu
