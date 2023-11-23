@@ -4,7 +4,7 @@
 - [ ] hyprland
 - [ ] Wallpaper
 - [ ] hyprpaper
-- [ ] sddm
+- [X] sddm
 - [ ] rofi
 - [ ] waybar
 - [ ] ranger
