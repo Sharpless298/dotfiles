@@ -13,6 +13,7 @@
 - [ ] screenshot
 - [ ] zathura
 - [X] fastfetch
+- [ ] zsh
 
 ---
 
