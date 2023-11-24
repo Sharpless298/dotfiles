@@ -13,7 +13,7 @@
 - [ ] screenshot
 - [ ] zathura
 - [X] fastfetch
-- [ ] zsh
+- [X] bash vi mode
 
 ---
 
