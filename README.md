@@ -28,5 +28,5 @@
 - **Text Editor** • Vim
 - **Browser** • Firefox & LibreWolf
 - **Shell** • Bash
-- **fetch** pfetch & fastfetch
+- **fetch** • pfetch & fastfetch
 - **Theme** 
