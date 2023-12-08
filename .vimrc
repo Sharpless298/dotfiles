@@ -14,12 +14,12 @@ call plug#end()
 
 """ Basic Configuration
 colorscheme tokyonight
-	
+
 let &t_8b="\<Esc>[48;2;%lu;%lu;%lum"
 let &t_8f="\<Esc>[38;2;%lu;%lu;%lum"
-let &t_SI="\e[5 q"
+let &t_SI="\e[6 q"
 let &t_SR="\e[4 q"
-let &t_EI="\e[0 q"
+let &t_EI="\e[2 q"
 
 set autochdir
 set autoindent
@@ -43,14 +43,15 @@ let g:startify_lists = [
           \ { 'type': 'files',     'header': ['   MRU']            },
           \ { 'type': 'bookmarks', 'header': ['   Bookmarks']      },
           \ ]
-let g:startify_bookmarks = ['~/.vimrc', '~/Documents', '~/CP', '~/CP/problemlist.md', '~/EnglishLearning']
+let g:startify_bookmarks = ['~/.vimrc', '~/CP', '~/Documents', '~/CP/problemlist.md', '~/EnglishLearning']
 let g:tokyonight_style = 'night' " available: night, storm
 let g:airline_theme = "tokyonight"
 
 """ Keymaps
+nnoremap pavu :!pulsemixer<CR>
 
 nnoremap ya :w <bar> !wl-copy < % <CR>
-"nnoremap ya :w <bar> !xclip -sel c < % <CR>
+" nnoremap ya :w <bar> !xclip -sel c < % <CR>
 
 nnoremap ntt :NERDTreeToggle<CR>
 
