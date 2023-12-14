@@ -26,7 +26,7 @@
 - **PDF Viewer** • [Zathura](https://github.com/pwmt/zathura)
 - **Terminal Font** • NotoSansMono
 - **Text Editor** • Vim
-- **Browser** • Firefox & LibreWolf
+- **Browser** • Firefox & LibreWolf & Vivaldi & Chromium
 - **Shell** • Bash
 - **fetch** • fastfetch
 - **Theme** 
