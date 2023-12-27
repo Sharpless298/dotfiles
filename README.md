@@ -29,4 +29,4 @@
 - **Browser** • Firefox & LibreWolf & Vivaldi & Chromium
 - **Shell** • Bash
 - **fetch** • fastfetch
-- **Theme** 
+- **Theme** • Tokyo Night
