@@ -11,6 +11,8 @@
 - **Text Editor** • Vim
 - **Browser** • Firefox & LibreWolf & Vivaldi & Chromium
 - **Shell** • Bash
+- **fetch** • fastfetch
+- **Theme** • Tokyo Night
 ---
 - ## ToDoList
 - [ ] hyprland
@@ -26,5 +28,4 @@
 - [ ] zathura
 - [X] fastfetch
 - [X] bash vi mode
-- **fetch** • fastfetch
-- **Theme** • Tokyo Night
+
