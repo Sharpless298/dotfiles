@@ -3,7 +3,7 @@
 - **Window Manager** • [Hyprland](https://github.com/hyprwm/Hyprland)
 - **Terminal** • [kitty](https://github.com/kovidgoyal/kitty)
 - **Panel** • [Waybar](https://github.com/Alexays/Waybar)
-- **Launcher** • [Rofi](https://github.com/davatorium/rofi)
+- **Launcher** • [Wofi](https://hg.sr.ht/~scoopta/wofi)
 - **File Manager** • [Ranger](https://github.com/ranger/ranger) && [Dolphin](https://github.com/KDE/dolphin)
 - **Icon** • Papirus
 - **PDF Viewer** • [Zathura](https://github.com/pwmt/zathura)
