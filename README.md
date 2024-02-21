@@ -18,7 +18,7 @@
 - [ ] hyprland
 - [ ] hyprlock
 - [ ] hyprpaper
-~~[X] sddm~~
+- ~~[X] sddm~~
 - [X] wofi
 - [ ] waybar
 - [ ] ranger
