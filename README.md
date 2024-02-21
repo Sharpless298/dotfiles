@@ -16,16 +16,15 @@
 ---
 - ## ToDoList
 - [ ] hyprland
-- [ ] Wallpaper
+- [ ] hyprlock
 - [ ] hyprpaper
-- [X] sddm
-- [ ] rofi
+--[X] sddm--
+- [X] wofi
 - [ ] waybar
 - [ ] ranger
 - [X] dolphin
 - [ ] wlogout
-- [ ] screenshot
-- [ ] zathura
-- [X] fastfetch
+- [X] screenshot
+- [X] zathura
 - [X] bash vi mode
 
