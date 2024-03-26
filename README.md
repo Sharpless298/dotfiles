@@ -4,7 +4,7 @@
 - **Terminal** • [kitty](https://github.com/kovidgoyal/kitty)
 - **Panel** • [Waybar](https://github.com/Alexays/Waybar)
 - **Launcher** • [Wofi](https://hg.sr.ht/~scoopta/wofi)
-- **File Manager** • [Ranger](https://github.com/ranger/ranger) && [Dolphin](https://github.com/KDE/dolphin)
+- **File Manager** • [Ranger](https://github.com/ranger/ranger) && Nautilus
 - **Icon** • Papirus
 - **PDF Viewer** • [Zathura](https://github.com/pwmt/zathura)
 - **Terminal Font** • NotoSansMono
