@@ -3,7 +3,7 @@
 ## Requirements
 
 ```
-pacman -S git stow
+pacman -S git stow hyprland hyprpaper hyprlock btop fastfetch kitty ranger waybar wofi zathura zathura-pdf-poppler nautilus vim
 ```
 
 ## Installation
