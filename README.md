@@ -9,7 +9,7 @@ pacman -S git stow hyprland hyprpaper hyprlock btop fastfetch kitty ranger wayba
 ## Installation
 
 ```
-$ git clone git@github.com/sharpless298/dotfiles.git
+$ git clone git@github.com/Sharpless298/dotfiles.git
 $ cd dotfiles
 $ stow .
 ```
