@@ -15,4 +15,10 @@ alias grep='grep --color=auto'
 
 
 alias pm='pulsemixer'
-alias disable_boost='sudo bash -c "echo 0 > /sys/devices/system/cpu/cpufreq/boost"'
+# alias disable_boost='sudo bash -c "echo 0 > /sys/devices/system/cpu/cpufreq/boost"'
+
+value=$(cat "/sys/devices/system/cpu/cpufreq/boost")
+if [ "$value" -eq 1 ]; then
+	echo "Disable boost!"
+	sudo bash -c "echo 0 > /sys/devices/system/cpu/cpufreq/boost"
+fi
