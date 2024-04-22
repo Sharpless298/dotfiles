@@ -22,3 +22,5 @@ if [ "$value" -eq 1 ]; then
 	echo "Disable boost!"
 	sudo bash -c "echo 0 > /sys/devices/system/cpu/cpufreq/boost"
 fi
+
+export PATH=$PATH:/home/sharpless298/.cargo/bin
