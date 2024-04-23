@@ -24,5 +24,5 @@ if [ "$value" -eq 1 ]; then
 fi
 
 export PATH=$PATH:/home/sharpless298/.cargo/bin
-alias fastfetch='fastfetch --logo ~/Wallpapers/arch2.png --logo-type kitty'
+alias fastfetch='fastfetch --logo ~/Wallpapers/arch3.png --logo-type kitty'
 
