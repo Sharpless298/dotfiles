@@ -57,5 +57,7 @@
             "keyColor": "red",
             "type": "terminal"
         },
+		"break",
+		"break",
     ]
 }
