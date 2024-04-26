@@ -10,7 +10,7 @@ PS1='[\u@\h \W]\$ '
 set -o vi
 alias less='less -Q'
 alias man='man -P "less -Q"'
-alias ls='ls --color=auto'
+alias ls='lsd'
 alias grep='grep --color=auto'
 
 
@@ -25,4 +25,3 @@ fi
 
 export PATH=$PATH:/home/sharpless298/.cargo/bin
 alias fastfetch='fastfetch --logo ~/Wallpapers/arch3.png --logo-type kitty'
-
