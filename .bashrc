@@ -10,7 +10,7 @@ PS1='[\u@\h \W]\$ '
 set -o vi
 alias less='less -Q'
 alias man='man -P "less -Q"'
-alias ls='lsd'
+alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 
 
