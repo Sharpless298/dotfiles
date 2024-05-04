@@ -2,18 +2,15 @@
 # ~/.bashrc
 #
 
-# setfont -d
-
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 PS1='[\u@\h \W]\$ '
 set -o vi
 alias less='less -Q'
 alias man='man -P "less -Q"'
-alias ls='ls --color=auto'
+alias ls='lsd'
 alias grep='grep --color=auto'
-
-
+alias fastfetch='fastfetch --logo ~/Wallpapers/arch3.png --logo-type kitty'
 alias pm='pulsemixer'
 # alias disable_boost='sudo bash -c "echo 0 > /sys/devices/system/cpu/cpufreq/boost"'
 
@@ -24,4 +21,3 @@ if [ "$value" -eq 1 ]; then
 fi
 
 export PATH=$PATH:/home/sharpless298/.cargo/bin
-alias fastfetch='fastfetch --logo ~/Wallpapers/arch3.png --logo-type kitty'

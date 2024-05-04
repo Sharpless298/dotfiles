@@ -3,6 +3,7 @@ set nocompatible
 """ Plugins
 call plug#begin('~/.vim/plugged')
 
+Plug 'Stoozy/vimcord'
 " Plug 'crusoexia/vim-monokai'
 " Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
 " Plug 'lervag/vimtex'
@@ -55,6 +56,7 @@ let g:tokyonight_style = 'night' " available: night, storm
 let g:airline_theme = "tokyonight"
 let g:vimtex_view_method = 'zathura'
 " let g:livepreview_previewer = 'zathura'
+let g:vimcord_show_workspace = 'false'
 
 """ Keymaps
 nnoremap !pm :!pulsemixer<CR>
@@ -63,6 +65,8 @@ nnoremap ya :w <bar> !wl-copy < % <CR>
 " nnoremap ya :w <bar> !xclip -sel c < % <CR>
 
 nnoremap ntt :NERDTreeToggle<CR>
+
+" nnoremap <C-n> :tabnew<CR>:Startify <CR>
 
 autocmd filetype cpp nnoremap <F9> :w <bar> !g++ -std=c++17 % -o %:r -Wall -Wextra -Wconversion -Wshadow -fsanitize=undefined -fsanitize=address <CR>
 autocmd filetype cpp nnoremap <F10> :!./%:r <CR>
