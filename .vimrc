@@ -59,6 +59,8 @@ let g:airline_theme = "tokyonight"
 let g:vimtex_view_method = 'zathura'
 " let g:livepreview_previewer = 'zathura'
 let g:vimcord_show_workspace = 'false'
+let g:comfortable_motion_scroll_down_key = "j"
+let g:comfortable_motion_scroll_up_key = "k"
 
 """ Keymaps
 nnoremap !pm :!pulsemixer<CR>
@@ -77,5 +79,6 @@ autocmd filetype cpp command! Default execute "%d|r ~/CP/Template/default.cpp|1d
 autocmd filetype tex nnoremap <F9> :w <bar> !pdflatex % <CR>
 " autocmd filetype tex nnoremap <F9>> :w <bar> !xelatex % <CR>
 autocmd filetype tex nnoremap <F10> :!zathura %:r.pdf & <CR><CR>
+
 " autocmd filetype tex nnoremap <F11> :!latexmk -pvc -pdf % & <CR>
 " autocmd filetype tex nmap <F10> \ll
