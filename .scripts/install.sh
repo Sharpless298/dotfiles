@@ -1,10 +1,5 @@
 #!/bin/bash
 
-if ! [ -x "$(command -v vim)" ]; then
-  echo '错误：vim 未安装，请先安装 vim.' >&2
-  exit 1
-fi
-
 PLUG_VIM_DIR="${HOME}/.vim/autoload"
 mkdir -p "${PLUG_VIM_DIR}"
 
