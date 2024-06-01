@@ -72,7 +72,9 @@ nnoremap ntt :NERDTreeToggle<CR>
 
 autocmd filetype cpp nnoremap <F9> :w <bar> !g++ -std=c++17 % -o %:r -Wall -Wextra -Wconversion -Wshadow -fsanitize=undefined -fsanitize=address <CR>
 autocmd filetype cpp nnoremap <F10> :!./%:r <CR>
-autocmd filetype cpp command! Default execute "%d|r ~/CP/Template/default.cpp|1d|41"
+autocmd filetype cpp command! Default execute "%d|r ~/CP/templates/default.cpp|1d|41"
+
+autocmd filetype cpp command! DSU execute "%d|r ~/CP/templates/DSU.cpp|1d|41"
 
 autocmd filetype tex nnoremap <F9> :w <bar> !pdflatex % <CR>
 " autocmd filetype tex nnoremap <F9>> :w <bar> !xelatex % <CR>
