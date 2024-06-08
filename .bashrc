@@ -12,6 +12,8 @@ alias ls='lsd'
 alias grep='grep --color=auto'
 alias fastfetch='fastfetch --logo ~/Wallpapers/arch3.png --logo-type kitty'
 alias pm='pulsemixer'
+alias ndwc='nmcli d wifi con Pixel7'
+
 # alias disable_boost='sudo bash -c "echo 0 > /sys/devices/system/cpu/cpufreq/boost"'
 
 value=$(cat "/sys/devices/system/cpu/cpufreq/boost")
