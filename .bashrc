@@ -10,7 +10,6 @@ alias less='less -Q'
 alias man='man -P "less -Q"'
 alias ls='lsd'
 alias grep='grep --color=auto'
-alias fastfetch='fastfetch --logo ~/Wallpapers/arch3.png --logo-type kitty'
 alias pm='pulsemixer'
 alias ndwc='nmcli d wifi con Pixel7'
 
