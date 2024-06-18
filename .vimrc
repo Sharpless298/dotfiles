@@ -70,7 +70,7 @@ nnoremap ntt :NERDTreeToggle<CR>
 
 " nnoremap <C-n> :tabnew<CR>:Startify <CR>
 
-autocmd filetype cpp nnoremap <F9> :w <bar> !g++ -std=c++98 % -o %:r -Wall -Wextra -Wconversion -Wshadow -fsanitize=undefined -fsanitize=address <CR>
+autocmd filetype cpp nnoremap <F9> :w <bar> !g++ -std=c++17 % -o %:r -Wall -Wextra -Wconversion -Wshadow -fsanitize=undefined -fsanitize=address <CR>
 autocmd filetype cpp nnoremap <F10> :!./%:r <CR>
 
 autocmd filetype cpp command! Default execute "%d|r ~/CP/templates/default.cpp|1d|41"
