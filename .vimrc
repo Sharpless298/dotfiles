@@ -36,7 +36,7 @@ set shiftwidth=4
 set showcmd
 set tabstop=4
 set termguicolors
-set timeoutlen=64
+" set timeoutlen=64
 set ttimeoutlen=0
 
 set encoding=utf-8
@@ -61,7 +61,7 @@ let g:comfortable_motion_scroll_down_key = "j"
 let g:comfortable_motion_scroll_up_key = "k"
 
 """ Keymaps
-inoremap jk <Esc>
+" inoremap jk <Esc>
 nnoremap !pm :!pulsemixer<CR>
 
 nnoremap ya :w <bar> !wl-copy < % <CR>
@@ -78,6 +78,8 @@ autocmd filetype cpp command! Default execute "%d|r ~/CP/templates/default.cpp|1
 autocmd filetype cpp command! DSU execute "%d|r ~/CP/templates/DSU.cpp|1d|41"
 autocmd filetype cpp command! LCA execute "%d|r ~/CP/templates/LCA.cpp|1d|41"
 autocmd filetype cpp command! FPOW execute "%d|r ~/CP/templates/fpow.cpp|1d|41"
+autocmd filetype cpp command! TEMP execute "tabnew ~/CP/temp.cpp"
+autocmd filetype cpp command! TEMP2 execute "tabnew ~/CP/temp2.cpp"
 
 autocmd filetype tex nnoremap <F9> :w <bar> !pdflatex % <CR>
 " autocmd filetype tex nnoremap <F9>> :w <bar> !xelatex % <CR>
