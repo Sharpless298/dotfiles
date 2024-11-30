@@ -6,6 +6,7 @@ call plug#begin('~/.vim/plugged')
 " Plug 'crusoexia/vim-monokai'
 " Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
 " Plug 'lervag/vimtex'
+Plug 'ap/vim-css-color'
 Plug 'ghifarit53/tokyonight-vim'
 Plug 'mhinz/vim-startify'
 Plug 'vim-airline/vim-airline'
@@ -84,7 +85,7 @@ command! TEMP2 execute "tabnew ~/CP/temp2.cpp"
 
 autocmd filetype python nnoremap <F9> :w <bar> !python3 % <CR>
 
-autocmd filetype tex nnoremap <F9> :w <bar> !pdflatex % <CR>
+autocmd filetype tex nnoremap <F9> :w <bar> !xelatex % <CR>
 " autocmd filetype tex nnoremap <F9>> :w <bar> !xelatex % <CR>
 autocmd filetype tex nnoremap <F10> :!zathura %:r.pdf & <CR><CR>
 
