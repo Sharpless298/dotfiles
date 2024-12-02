@@ -1,5 +1,3 @@
-# hyprland-dotfiles
-
 ## Requirements
 
 ```
