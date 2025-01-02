@@ -13,6 +13,7 @@ alias grep='grep --color=auto'
 alias pm='pulsemixer'
 alias ndwc='nmcli d wifi con Pixel7'
 alias sshnptu='ssh cbb113132@ws.csie2.nptu.edu.tw -p 2000'
+alias osu='~/Downloads/osu.AppImage'
 
 # alias disable_boost='sudo bash -c "echo 0 > /sys/devices/system/cpu/cpufreq/boost"'
 
@@ -24,4 +25,3 @@ fi
 export PATH=$PATH:/home/sharpless298/.cargo/bin
 export PATH=$PATH:/home/sharpless298/.local/share/gem/ruby/3.2.0/bin
 export QT_SCALE_FACTOR_ROUNDING_POLICY=RoundPreferFloor
-
