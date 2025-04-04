@@ -13,3 +13,30 @@
 
 2024/11/18 (18:01:48) | ===> btop++ v.1.4.0
 2024/11/18 (18:01:48) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+
+2025/02/09 (20:30:31) | ===> btop++ v.1.4.0
+2025/02/09 (20:30:31) | WARNING: Failed to join _runner thread on exit!
+
+2025/02/09 (20:47:54) | ===> btop++ v.1.4.0
+2025/02/09 (20:47:54) | WARNING: Failed to join _runner thread on exit!
+
+2025/03/02 (03:12:21) | ===> btop++ v.1.4.0
+2025/03/02 (03:12:21) | WARNING: Failed to join _runner thread on exit!
+
+2025/03/05 (18:46:28) | ===> btop++ v.1.4.0
+2025/03/05 (18:46:28) | WARNING: Failed to join _runner thread on exit!
+
+2025/03/21 (21:22:04) | ===> btop++ v.1.4.0
+2025/03/21 (21:22:04) | WARNING: Failed to join _runner thread on exit!
+
+2025/03/29 (16:56:18) | ===> btop++ v.1.4.0
+2025/03/29 (16:56:18) | WARNING: Failed to join _runner thread on exit!
+
+2025/03/30 (06:42:13) | ===> btop++ v.1.4.0
+2025/03/30 (06:42:13) | WARNING: Failed to join _runner thread on exit!
+
+2025/03/31 (07:24:12) | ===> btop++ v.1.4.0
+2025/03/31 (07:24:12) | WARNING: Failed to join _runner thread on exit!
+
+2025/03/31 (09:02:48) | ===> btop++ v.1.4.0
+2025/03/31 (09:02:48) | WARNING: Failed to join _runner thread on exit!
