@@ -7,6 +7,7 @@ call plug#begin('~/.vim/plugged')
 " Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
 " Plug 'lervag/vimtex'
 Plug 'ap/vim-css-color'
+Plug 'ryanoasis/vim-devicons'
 Plug 'ghifarit53/tokyonight-vim'
 Plug 'mhinz/vim-startify'
 Plug 'vim-airline/vim-airline'
