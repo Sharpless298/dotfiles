@@ -27,4 +27,6 @@ export PATH=$PATH:/home/sharpless298/.cargo/bin
 export PATH=$PATH:/home/sharpless298/.local/share/gem/ruby/3.2.0/bin
 export QT_SCALE_FACTOR_ROUNDING_POLICY=RoundPreferFloor
 
-eval "$(starship init bash)"
+if tty -s; then
+	eval "$(starship init bash)"
+fi

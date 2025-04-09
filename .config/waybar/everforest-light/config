@@ -6,13 +6,13 @@
   "height": 60, 
   "layer": "top",
   "position": "top",
-  "output": "eDP-1",
+  "output": "DP-2",
   "spacing": 15,
   "modules-left": ["custom/launcher", "clock", "clock#date"],
-  "modules-center": ["hyprland/workspaces"],
+  "modules-center": ["wlr/workspaces"],
   "modules-right": ["pulseaudio", "network", "battery", "custom/powermenu"],
 
-  "hyprland/workspaces": {
+  "wlr/workspaces": {
       "disable-scroll": true,
       "all-outputs": true,
       "on-click": "activate",
