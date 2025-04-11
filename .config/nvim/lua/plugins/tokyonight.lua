@@ -3,7 +3,7 @@ return {
 	opts = {
 		transparent = false,
 		styles = {
-			"moon",
+			"night",
 			sidebars = "transparent",
 			floats = "transparent",
 		},
