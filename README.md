@@ -1,7 +1,7 @@
 #  Arch / Hyprland dotfiles 
 
 ## Screeshots
-![Image](https://github.com/user-attachments/assets/f97f16a0-0afc-41c4-9d13-f2624b3b8e45)
+![Image](https://github.com/user-attachments/assets/21426935-f1eb-448d-92e2-888936900bd1)
 
 ## Installation
 
