@@ -16,11 +16,9 @@ vim.api.nvim_create_autocmd("FileType", {
 
 			vim.keymap.set("n", "<F9>", function()
 				vim.cmd("w | term gcc % -Wall -Wextra -Wconversion -Wshadow -fsanitize=address,undefined")
-				vim.cmd("startinsert")
 			end)
 			vim.keymap.set("n", "<F10>", function()
 				vim.cmd("term ./a.out;")
-				vim.cmd("startinsert")
 			end)
 		end)
 	end,
@@ -30,20 +28,11 @@ vim.api.nvim_create_autocmd("FileType", {
 	pattern = { "cpp" },
 	callback = function()
 		vim.schedule(function()
-			-- vim.keymap.set(
-			-- 	"n",
-			-- 	"<F9>",
-			-- 	":w <bar> !g++ -std=c++23 % -Wall -Wextra -Wconversion -Wshadow -fsanitize=address,undefined<CR>"
-			-- )
-			-- vim.keymap.set("n", "<F10>", ":term ./a.out<CR>")
-			--
 			vim.keymap.set("n", "<F9>", function()
 				vim.cmd("w | term g++ -std=c++23 % -Wall -Wextra -Wconversion -Wshadow -fsanitize=address,undefined")
-				vim.cmd("startinsert")
 			end)
 			vim.keymap.set("n", "<F10>", function()
 				vim.cmd("term ./a.out;")
-				vim.cmd("startinsert")
 			end)
 		end)
 	end,
@@ -55,7 +44,6 @@ vim.api.nvim_create_autocmd("FileType", {
 		vim.schedule(function()
 			vim.keymap.set("n", "<F9>", function()
 				vim.cmd("w | term pdflatex %")
-				vim.cmd("startinsert")
 			end)
 			vim.keymap.set("n", "<F10>", ":!zathura %:r.pdf &<CR>")
 		end)
