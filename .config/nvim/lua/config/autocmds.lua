@@ -19,6 +19,7 @@ vim.api.nvim_create_autocmd("FileType", {
 			end)
 			vim.keymap.set("n", "<F10>", function()
 				vim.cmd("term ./a.out;")
+				vim.cmd("startinsert")
 			end)
 		end)
 	end,
@@ -33,6 +34,7 @@ vim.api.nvim_create_autocmd("FileType", {
 			end)
 			vim.keymap.set("n", "<F10>", function()
 				vim.cmd("term ./a.out;")
+				vim.cmd("startinsert")
 			end)
 		end)
 	end,
