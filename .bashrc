@@ -30,6 +30,7 @@ if [[ "$tty_path" == /dev/pts/* ]]; then
     if [ "$(cat "/sys/devices/system/cpu/cpufreq/boost")" -eq 1 ]; then
         echo "Disable boost!"
         sudo bash -c "echo 0 > /sys/devices/system/cpu/cpufreq/boost"
+		clear
     fi
     nitch
     eval "$(starship init bash)"
