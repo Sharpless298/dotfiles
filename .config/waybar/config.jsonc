@@ -64,8 +64,8 @@
 
   "clock": {
     "format": "󰥔  {:%I:%M %p}",
-    "format-alt": "󰥔  {:%a, %d. %b  %I:%M %p}",
-    "tooltip-format": "Date: {:%Y-%m-%d}"
+    "format-alt": "󰥔  {:%a, %b %d  %I:%M %p}",
+    // "tooltip-format": "Date: {:%Y-%m-%d}"
   },
 
   "pulseaudio": {

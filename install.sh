@@ -27,7 +27,7 @@ cd yay
 makepkg -si --noconfirm
 
 # install pfetch
-yay -S pfetch spotify --noconfirm
+yay -S pfetch spotify vesktop --noconfirm
 
 # install & build nitch
 cd ~
