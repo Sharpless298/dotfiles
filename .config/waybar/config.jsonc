@@ -2,9 +2,10 @@
   "layer": "top",
   "position": "top",
   "margin-top": 6,
-  "modules-left": ["custom/launcher", "clock", "hyprland/workspaces"],
-  "modules-center": ["custom/notification", "custom/media"],
-  "modules-right": ["custom/pacman", "custom/weather", "pulseaudio", "battery", "network", "power-profiles-daemon"],
+  // "modules-left": ["custom/launcher", "clock", "custom/weather", "custom/notification"],
+  "modules-left": ["custom/launcher", "clock", "custom/weather"],
+  "modules-center": ["custom/media"],
+  "modules-right": ["pulseaudio", "memory", "disk", "cpu", "battery", "network", "power-profiles-daemon"],
   "height": 40,
 
   "custom/notification": {
@@ -73,11 +74,11 @@
     "format-bluetooth": "󰂱 {volume}%",
     "format-muted": "󰖁",
     "scroll-step": 1,
-    "on-click": "pavucontrol",
+    "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
     "ignored-sinks": ["Easy Effects Sink"],
     "format-icons": {
       "headphone": "",
-      "hands-free": "",
+      "hands-free": "󰕾",
       "headset": "󰋎",
       "phone": "",
       "portable": "",
@@ -153,19 +154,19 @@
   
   "cpu": {
     "interval": 10,
-    "format": "    {}%",
+    "format": "  {usage:2}%",
     "max-length": 10
   },
 
   "memory": {
-    "interval": 30,
-    "format": "    {}%",
+    "interval": 10,
+    "format": "  {}%",
     "max-length": 10
   },
 
   "disk": {
-    "interval": 30,
-    "format": "   {percentage_used}% used on {path}",
+    "interval": 10,
+    "format": "  {}%",
     "path": "/"
   }
 }
