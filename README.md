@@ -9,7 +9,7 @@
 > This will delete your config files. Make sure to back them up.
 
 ```
-git clone git@github.com/Sharpless298/dotfiles.git
+git clone https://github.com/Sharpless298/dotfiles.git
 chmod +x install.sh
 cd dotfiles
 ./install.sh
