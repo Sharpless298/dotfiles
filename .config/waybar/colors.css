@@ -5,7 +5,6 @@
     @define-color error_container #93000a;
 
     @define-color inverse_on_surface #2c3134;
-
     @define-color inverse_primary #186584;
 
     @define-color inverse_surface #dfe3e7;
@@ -48,7 +47,8 @@
 
     @define-color outline_variant #40484c;
 
-    @define-color primary #8dcff2;
+    /* @define-color primary #8dcff2; */
+    @define-color primary #8DAFEE;
 
     @define-color primary_container #004d67;
 
