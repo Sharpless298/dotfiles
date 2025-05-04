@@ -11,7 +11,7 @@
 
 ```
 git clone https://github.com/Sharpless298/dotfiles.git
-chmod +x install.sh
 cd dotfiles
+chmod +x install.sh
 ./install.sh
 ```
