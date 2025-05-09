@@ -1,7 +1,7 @@
 {
   "layer": "top",
   "position": "top",
-  "margin-top": 6,
+  "margin-top": 1,
   // "modules-left": ["custom/launcher", "clock", "custom/weather", "custom/notification"],
   "modules-left": ["custom/launcher", "clock", "custom/weather"],
   "modules-center": ["custom/media"],
