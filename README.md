@@ -10,6 +10,7 @@
 > This will delete your config files. Make sure to back them up.
 
 ```
+cd
 git clone https://github.com/Sharpless298/dotfiles.git
 cd dotfiles
 chmod +x install.sh
