@@ -26,10 +26,9 @@ git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si --noconfirm
 
-# install pfetch
 yay -S pfetch spotify vesktop --noconfirm
 
-# install & build nitch
+# build nitch
 cd ~
 git clone https://github.com/ronit1996/nitch.git
 cd nitch
