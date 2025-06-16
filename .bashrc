@@ -11,6 +11,7 @@ alias man='man -P "less -Q"'
 alias ls='lsd'
 alias grep='grep --color=auto'
 alias pm='pulsemixer'
+alias wifi='iwctl station wlan0 scan; iwctl station wlan0 connect Pixel7'
 
 export PATH=$PATH:$HOME/.cargo/bin
 export PATH=$PATH:$HOME/.local/share/gem/ruby/3.2.0/bin
