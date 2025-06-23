@@ -40,7 +40,6 @@ vim.api.nvim_create_autocmd("FileType", {
 		end)
 	end,
 })
---]]
 
 vim.api.nvim_create_autocmd("FileType", {
 	pattern = { "tex" },
@@ -53,3 +52,4 @@ vim.api.nvim_create_autocmd("FileType", {
 		end)
 	end,
 })
+--]]
