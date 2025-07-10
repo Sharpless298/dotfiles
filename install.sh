@@ -7,10 +7,10 @@ PACKAGES=(
     hyprland hyprpaper hyprlock hyprpicker
     vim neovim wl-clipboard kitty lsd python-pillow fastfetch btop ranger starship zathura zathura-pdf-poppler pulsemixer
     waybar wofi nautilus
+    pavucontrol iwd
     grim slurp
-    pavucontrol
-    fcitx5-im fcitx5-chewing fcitx5-qt fcitx5-gtk fcitx5-chinese-addons
     noto-fonts-cjk noto-fonts-emoji
+    fcitx5-im fcitx5-chewing fcitx5-qt fcitx5-gtk fcitx5-chinese-addons
     firefox discord
 )
 
