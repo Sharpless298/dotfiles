@@ -88,6 +88,7 @@ autocmd filetype cpp nnoremap <F10> :!./a.out <CR>
 " autocmd filetype cpp nnoremap <F10> :!./%:r <CR>
 
 autocmd filetype cpp command! Default execute "%d|r ~/CP/templates/default.cpp|1d|41"
+autocmd filetype cpp command! CFCPP execute "!clang-format -i %"
 command! TEMP execute "tabnew ~/CP/temp.cpp"
 command! TEMP2 execute "tabnew ~/CP/temp2.cpp"
 
