@@ -45,6 +45,7 @@ color: #c0caf5;
 #entry:selected {
 	background-color: #414868;
 	font-weight: normal;
+    border-radius: 8px;
 }
 
 #text:selected {
