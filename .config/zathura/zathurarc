@@ -36,7 +36,7 @@ set completion-highlight-bg     "24283b"
 set recolor-lightcolor          "#16161e"
 set recolor-darkcolor           "#a9b1d6"
 
-set recolor                     "true"
+# set recolor                     "true"
 set recolor-keephue             "false"
 
 set selection-clipboard clipboard
