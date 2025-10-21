@@ -14,8 +14,8 @@ Plug 'tribela/vim-transparent'
 Plug 'vim-airline/vim-airline'
 Plug 'preservim/nerdtree'
 Plug 'yuttie/comfortable-motion.vim'
-" Plug 'bfrg/vim-cpp-modern'
-Plug 'sheerun/vim-polyglot'
+Plug 'bfrg/vim-cpp-modern'
+" Plug 'sheerun/vim-polyglot'
 Plug 'rlue/vim-barbaric'
 " Plug 'preservim/vim-markdown'
 call plug#end()
@@ -77,7 +77,7 @@ nnoremap ntt :NERDTreeToggle<CR>
 
 " nnoremap <C-n> :tabnew<CR>:Startify <CR>
 
-autocmd filetype c nnoremap <F9> :w <bar> !gcc % -o %:r -lm -Wall -Wextra -Wconversion -Wshadow <CR>
+autocmd filetype c nnoremap <F9> :w <bar> !gcc -std=c11 % -o %:r -lm -Wall -Wextra -Wconversion -Wshadow <CR>
 autocmd filetype c nnoremap <F10> :!./%:r <CR>
 
 autocmd filetype cpp nnoremap <F9> :w <bar> !g++ -std=c++23 % -Wall -Wextra -Wconversion -Wshadow -fsanitize=address,undefined<CR>

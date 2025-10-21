@@ -5,7 +5,7 @@ set -e
 PACKAGES=(
     base-devel curl stow nim npm go man
     hyprland hyprpaper hyprlock hyprpicker
-    vim neovim wl-clipboard kitty lsd python-pillow fastfetch btop ranger starship zathura zathura-pdf-poppler pulsemixer
+    vim neovim wl-clipboard kitty alacritty lsd python-pillow fastfetch btop ranger starship zathura zathura-pdf-poppler pulsemixer
     waybar wofi nautilus
     pavucontrol iwd ddcutil
     grim slurp

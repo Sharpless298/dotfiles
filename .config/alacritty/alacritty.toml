@@ -1,8 +1,11 @@
 [font]
 
-size = 13.0
+size = 16.0
 
 [general]
 import = [
-    "~/.config/alacritty/themes/themes/tokyo-night.toml"
+    "~/.config/alacritty/themes/tokyo-night.toml"
 ]
+[window]
+opacity = 0.0
+decorations_theme_variant = "Light"
