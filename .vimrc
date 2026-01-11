@@ -53,7 +53,7 @@ syntax enable
 
 """ Plugin configuration
 let g:startify_custom_header = []
-let g:startify_files_number = 8
+let g:startify_files_number = 9
 let g:startify_lists = [
           \ { 'type': 'files',     'header': ['   MRU']            },
           \ { 'type': 'bookmarks', 'header': ['   Bookmarks']      },
@@ -88,12 +88,14 @@ autocmd filetype cpp nnoremap <F10> :!./a.out <CR>
 " autocmd filetype cpp nnoremap <F10> :!./%:r <CR>
 
 autocmd filetype cpp command! Default execute "%d|r ~/CP/templates/default.cpp|1d|41"
+autocmd filetype cpp command! AOC execute "%d|r ~/adventofcode/default.cpp|1d|41"
 autocmd filetype cpp command! CFCPP execute "!clang-format -i %"
+autocmd filetype cpp nnoremap <C-C> :s/^\(\s*\)/\1\/\/<CR> :s/^\(\s*\)\/\/\/\//\1<CR> $
+
 command! TEMP execute "tabnew ~/CP/temp.cpp"
 command! TEMP2 execute "tabnew ~/CP/temp2.cpp"
 
 autocmd filetype python nnoremap <F9> :w <bar> !python3 % <CR>
-
 " autocmd filetype tex nnoremap <F9> :w <bar> !pdflatex % <CR>
 autocmd filetype tex nmap <F9> \ll
 " autocmd filetype tex nnoremap <F9> :w <bar> !xelatex % <CR>

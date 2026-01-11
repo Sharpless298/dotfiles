@@ -1,3 +1,5 @@
 [user]
 	email = sharpless298@gmail.com
 	name = Sharpless298
+[core]
+	editor = vim
