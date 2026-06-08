@@ -1,4 +1,4 @@
-#  Arch / Hyprland dotfiles 
+#  Archlinux / Hyprland dotfiles 
 
 ## Screenshots
 ![Image](https://github.com/user-attachments/assets/4b7f05ac-c04a-4538-9cfe-d7d6f139aefa)
@@ -10,7 +10,7 @@
 > This will delete your config files. Make sure to back them up.
 
 ```
-cd
+cd ~
 git clone https://github.com/Sharpless298/dotfiles.git
 cd dotfiles
 chmod +x install.sh
